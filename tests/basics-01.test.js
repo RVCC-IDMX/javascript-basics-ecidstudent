@@ -26,7 +26,7 @@
    TODO: Use the let keyword to declare a variable called myName and do NOT assign it a value.
 */
 // * Add your code BELOW here
-
+let myName;
 // * Don't mess with the test code below here!
 test('myName', () => {
   expect(myName).toBeUndefined();
@@ -44,7 +44,7 @@ test('myName', () => {
    TODO: Use the let keyword to create a variable called age and assign it the number literal 22.
 */
 // * Add your code BELOW here
-
+let age = 22;
 // * Don't mess with the test code below here!
 test('age', () => {
   expect(age).toBe(22);
@@ -62,7 +62,7 @@ test('age', () => {
    TODO: Use the const keyword to create a constant called daysInWeek and assign it the number literal 7.
 */
 // * Add your code BELOW here
-
+daysInWeek = 7;
 // * Don't mess with the test code below here!
 test('daysInWeek', () => {
   expect(() => {
@@ -87,7 +87,8 @@ test('daysInWeek', () => {
    TODO: DO NOT use the number literal 7 directly.
 */
 // * Add your code BELOW here
-
+let myWorkDays;
+const daysInWeek;
 // * Don't mess with the test code below here!
 test('myWorkDays', () => {
   expect(typeof myWorkDays).toBe('number');
