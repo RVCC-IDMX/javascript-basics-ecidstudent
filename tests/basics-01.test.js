@@ -62,7 +62,7 @@ test('age', () => {
    TODO: Use the const keyword to create a constant called daysInWeek and assign it the number literal 7.
 */
 // * Add your code BELOW here
-daysInWeek = 7;
+const daysInWeek = 7;
 // * Don't mess with the test code below here!
 test('daysInWeek', () => {
   expect(() => {
@@ -88,7 +88,7 @@ test('daysInWeek', () => {
 */
 // * Add your code BELOW here
 let myWorkDays;
-const daysInWeek;
+myWorkDays = daysInWeek;
 // * Don't mess with the test code below here!
 test('myWorkDays', () => {
   expect(typeof myWorkDays).toBe('number');
@@ -114,7 +114,9 @@ test('myWorkDays', () => {
    - Consider why the result is NaN and why NaN does not equal any other value.
 */
 // * Add your code BELOW here
-
+var oops;
+var sillyMath;
+sillyMath = oops * 2;
 // * Don't mess with the test code below here!
 test('sillyMath', () => {
   expect(oops).toBeUndefined();
@@ -134,7 +136,8 @@ test('sillyMath', () => {
    TODO: In the second line, assign sillyString to the string 'Hello, ' concatenated with oops.
 */
 // * Add your code BELOW here
-
+let sillyString;
+sillyString = 'Hello, ' + oops;
 // * Don't mess with the test code below here!
 test('sillyString', () => {
   expect(oops).toBeUndefined();
@@ -152,7 +155,9 @@ test('sillyString', () => {
    (Make sure to use let for variables and const for constants.)
 */
 // * Add your code BELOW here
-
+let year = 2022;
+let firstName = 'John';
+const taxRate = 0.2;
 // * Don't mess with the test code below here!
 test('year', () => {
   expect(year).toBe(2022);
